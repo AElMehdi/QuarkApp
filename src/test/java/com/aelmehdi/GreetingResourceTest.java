@@ -1,8 +1,9 @@
-package org.acme.getting.started;
+package com.aelmehdi;
 
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.Test;
 
+import static com.sun.org.apache.xerces.internal.util.PropertyState.is;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.is;
 
